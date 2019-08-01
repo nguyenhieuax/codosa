@@ -1,0 +1,13 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    padding: 100px 150px;
+}
+
+input[type="text"] {
+  
+    margin: 20px auto;
+}

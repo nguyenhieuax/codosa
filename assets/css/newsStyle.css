@@ -1,0 +1,147 @@
+*{
+    padding:0;
+    margin: 0;
+}
+
+.col-sm-4.right_bar {
+    position: relative;
+    top: 85px;
+}
+
+.head_title h3.wow.slideInLeft.animated {
+    font-size: 25px;
+    position: relative;
+    top: 20px;
+}
+
+.head_title h3.wow.fadeInLeft.animated {
+    position: absolute;
+    bottom: 0px;
+    left: 40px;
+    top: -20px;
+    font-size: 24px;
+}
+
+
+.mini_info {
+    padding: 15px 5px;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+a#comment {
+    color: #4E4D5B;
+}
+
+a#comment:hover {
+    color: #3C91E5;
+}
+
+i.fa.fa-search {
+    padding-left: 10px;
+    color: white;
+    transition: all 0.2s;
+}
+
+i.fa.fa-search:hover {
+    color: #2c598e;
+}
+
+
+i.fa.fa-thumbs-up:hover {
+    color: #3C91E5;
+}
+
+div#scroll {
+    height: 500px;
+    overflow-y: scroll;
+}
+
+section.main {
+    margin: 50px 0px;
+    z-index: 1;
+}
+
+.mini_info .post_infor {
+    word-spacing: 2px;
+    font-size: 12px;
+}
+
+a:hover {text-decoration: none;}
+
+.head_title a {
+    color: #4E4D5B;
+}
+
+.head_title a.create_topic {float: right;display: inline;position: relative;top: 2px;left: 0px;background-color: #3F74AB;color: white;border-radius: 3px;width: 99px;font-size: 13px;padding: 5px 5px 5px 12px;font-weight: bold;z-index: 3;}
+
+.main .left_post .post_infor {
+    word-spacing: 5px;
+    border-bottom: solid 1px #ecf0f1;
+    padding-bottom: 25px;
+    margin-bottom: 20px;
+}
+
+
+.left_post .post_title h5.heading {
+    color: #2c598e;
+    font-family: 'Roboto', sans-serif!important;
+    font-size: 30px;
+}
+
+.main .post_title {font-weight: 500;}
+
+.main .left_post img.img-responsive {
+    margin: 25px auto;
+    width: 100%;
+    height: auto;
+}
+
+.main .right_bar .contact img.img-responsive {
+    max-height: 250px;
+    width: auto;
+    margin: 100px auto;
+}
+
+.main .right_bar .post_title {
+    position: relative;
+    padding-bottom: 10px;
+}
+
+
+
+.main .right_bar .post_title h5 {
+    font-size: 13px;
+    position: absolute;
+    left: 120px;
+    top: -71px;
+    font-weight: bold;
+}
+
+.main .right_bar img.img-responsive {
+    width: auto;
+    max-height: 80px;
+    margin-top: 10px;
+}
+
+.crumbs {
+    float: right;
+    margin-top: 0px;
+    margin-right: 110px;
+    font-size: 18px;
+    opacity: 0.7;
+    position: absolute;
+    right: 30px;
+    bottom: 0px;
+    z-index: 3;
+}
+
+.head_title {padding-top: 10px;background-color: #DEECFF;padding-bottom: 10px;top: 70px;position: relative;}
+
+.main .right_bar .title {
+    font-size: 25px;
+    text-align: center;
+    background-color: #C2D9FF;
+    padding: 17px;
+    font-weight: 500;
+    top: 85px;
+}
