@@ -74,6 +74,10 @@ a:hover {text-decoration: none;}
 
 .head_title a.create_topic {float: right;display: inline;position: relative;top: 2px;left: 0px;background-color: #3F74AB;color: white;border-radius: 3px;width: 99px;font-size: 13px;padding: 5px 5px 5px 12px;font-weight: bold;z-index: 3;}
 
+.head_title a.create_topic:hover {
+    background-color: #57a0ed;
+}
+
 .main .left_post .post_infor {
     word-spacing: 5px;
     border-bottom: solid 1px #ecf0f1;

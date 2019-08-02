@@ -24,6 +24,11 @@
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
+    <link rel="stylesheet" href="assets/js/animate.min.css">
+
+    <script src="https://cdn.rawgit.com/matthieua/WOW/1.0.1/dist/wow.min.js"></script>
+    
+
 
 </head>
 <body>
@@ -70,24 +75,32 @@
 
     <!-- App điện thoại di động -->
     <section class="head_title" id="top">
-        <h3 class="wow slideInLeft">CÔNG NGHỆ BLOCKCHAIN - SMART CONTRACT (ERC20)            </h3>
-        <div class="crumbs wow slideInRight">
-            <a href="index.html">Home</a>
-            
-            <i class="fa fa-angle-right" aria-hidden="true"></i>
-            <span>Chi tiết tin tức</span>
-
-            
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h3 class="wow slideInLeft">CÔNG NGHỆ BLOCKCHAIN - SMART CONTRACT (ERC20)</h3>
+                    <div class="crumbs wow slideInRight">
+                    <a href="index.html">Home</a>
+                    
+                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                    <span>Chi tiết tin tức</span>  
+                      
+                    </div>  
+                    <a href="editor.html" class="create_topic wow slideInRight">Thêm tin tức</a>
+                </div>
+                
+            </div>
         </div>
+       
     </section>
 
-    <section class="main wow fadeInRight" data-wow-delay="0.8s">
+    <section class="main wow slideInRight" data-wow-delay="0.6s">
         <div class="container">
             <div class="row">
                 <div class="col-sm-8 left_post">
-                                <img src="assets/img/news/2.png" class="img-responsive" alt="">
+                                <img src="assets/img/news/1.png" class="img-responsive" alt="">
                                 <div class="post_title">
-                                <h5 class="heading">SÀN TRADE CRYPTO, FOREX, BINARY OPTION PLATFORM</h5>  
+                                <h5 class="heading">BLOCKSHOW MANG BLOCKCHAIN TRỞ LẠI CHÂU Á NGAY THÁNG 11/2018</h5>  
                                 </div>
                                 <div class="post_infor">
                                     <a href="" id="comment">0 comments</a>
@@ -187,10 +200,19 @@
                                 </div>
                         </div>
             </div>
+
+            
         </div>
         
         
     </section>
+
+    <!-- editor -->
+   
+   
+     
+
+    </form> 
 
     <!-- footer -->
 
@@ -283,15 +305,18 @@
         </div>
         <!-- /.row -->
     </footer>
-    
+    <script src="assets/js/app.js"></script>
+    <script src="ckeditor/ckeditor.js"></script>
 
     <!-- scripts -->
     <script src="node_modules/web3/dist/web3.min.js"></script>
-    <script src="assets/js/app.js"></script>
+   
     <script src="assets/js/newsletter.js"></script>
     <script src="assets/js/sale.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="assets/js/owl.carousel.min.js"></script>
+
+    <!-- editor -->
     <script>
         $(function () {
             var hDiv = $('img.banner-action-1').height();
@@ -300,9 +325,11 @@
             $('img.banner-w-h').height(hDiv);
         });
     </script>
-    <script src="https://cdn.rawgit.com/matthieua/WOW/1.0.1/dist/wow.min.js"></script>
+    
+    
     <script>
         new WOW().init();
     </script>
+       
 </body>
 </html>
